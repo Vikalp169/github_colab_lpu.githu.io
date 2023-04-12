@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Scrollspy and Github Collaboration with Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      position: relative;
+    }
+    #section1, #section2, #section3 {
+      padding-top: 50px;
+      height: 500px;
+      color: #fff;
+      background-color: #1E88E5;
+    }
+    #section4 {
+      padding-top: 50px;
+      height: 500px;
+      color: #fff;
+      background-color: #673ab7;
+    }
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Scrollspy and Github Collaboration</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#section1">Section 1</a></li>
+          <li><a href="#section2">Section 2</a></li>
+          <li><a href="#section3">Section 3</a></li>
+          <li><a href="#section4">Section 4</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="section1" class="container-fluid">
+  <h1>Section 1</h1>
+  <p>Scroll down to see the Navbar stick to the top of the page.</p>
+</div>
+<div id="section2" class="container-fluid">
+  <h1>Section 2</h1>
+  <p>Scroll to see the <code>active</code> class change.</p>
+</div>
+<div id="section3" class="container-fluid">
+  <h1>Section 3</h1>
+  <p>Scroll to see the magic!</p>
+</div>
+<div id="section4" class="container-fluid">
+  <h1>Section 4</h1>
+  <p>Scroll to see the magic!</p>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+<!-- Github Collaboration using Bootstrap -->
+<div class="container">
+  <h2>Github Collaboration</h2>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Step 1</h3>
+      <p>Fork the repository to your own Github account</p>
+      <img src="https://www.w3schools.com/bootstrap/cinquemea.jpg
+
+</div>
+<div class="col-sm-4">
+  <h3>Step 2</h3>
+  <p>Clone the forked repository to your local machine</p>
+  <img src="https://www.w3schools.com/bootstrap/cinquemeb.jpg">
+</div>
+<div class="col-sm-4">
+  <h3>Step 3</h3>
+  <p>Make changes and commit them to your local repository</p>
+  <img src="https://www.w3schools.com/bootstrap/cinquemec.jpg">
+</div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Step 4</h3>
+      <p>Push the changes to your forked repository on Github</p>
+      <img src="https://www.w3schools.com/bootstrap/cinquemed.jpg">
+    </div>
+    <div class="col-sm-4">
+      <h3>Step 5</h3>
+      <p>Create a pull request to merge your changes with the original repository</p>
+      <img src="https://www.w3schools.com/bootstrap/cinquemee.jpg">
+    </div>
+    <div class="col-sm-4">
+      <h3>Step 6</h3>
+      <p>Wait for the owner of the original repository to review and accept your changes</p>
+      <img src="https://www.w3schools.com/bootstrap/cinquemef.jpg">
+    </div>
+  </div>
+</div>
+</body>
+</html>
+```
