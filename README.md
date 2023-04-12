@@ -1,1 +1,1 @@
-# github_colab_lpu.githu.io
+# github_colab_lpu.github.io
